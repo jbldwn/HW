@@ -1,0 +1,76 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: borderbox;
+}
+html,body {
+ height: 100%
+}
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px
+}
+/* body{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+} */
+
+#openBkgrd{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to bottom right, rgba(61,61,61,.65), rgba(61,61,61,.35)), url("/fortuneCookie/images/cookieWhole.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+#fortuneBkgrd{
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to bottom right, rgba(61,61,61,.65), rgba(61,61,61,.35)), url("/fortuneCookie/images/cookieFortune.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#closedBkgrd{
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to bottom right, rgba(61,61,61,.65), rgba(61,61,61,.35)), url("/fortuneCookie/images/cookieOut.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#paper{
+  background-color: aliceblue;
+  height: 10%;
+  width: 60%;
+  
+  display: none;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+
+button{
+  height: 35px;
+  padding: 0 15px;
+
+  border-radius: 15px;
+  border: none;
+}
